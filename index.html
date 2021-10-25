@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /carousel /carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sweet Delights</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Brunch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">21+</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/brunch2.jpeg" alt="Brunch" width:100%; height:100%>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Brunch</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">View Gallery</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/desserts2.jpeg" alt="Desserts" width:100%; height:100%>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Sweets</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">See More Sweets</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/drinks.jpeg" alt="Drinks" width:100%; height:100%>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Alcoholic Drinks</h1>
+            <p>Who doesn't need a drink every now and then? Take a break and learn how to make some of your own drinks at home.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse Details</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/coffee.jpeg" alt="Coffee" style="border-radius:50%" width="140" height="140" >
+        <h2>Brunch</h2>
+        <p>Brunch is the most important meal of the day for late risers. View five different meals down below.</p>
+        <p><a class="btn btn-secondary" href="#">View More &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/cupcakes.png" alt="Cupcakes" style="border-radius:50%" width="140" height="140" >
+        <h2>Desserts</h2>
+        <p>Cakes? Cookies? Muffins? Take your pick from five different sweets included in the Desserts page.</p>
+        <p><a class="btn btn-secondary" href="#">View More &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/martini.jpeg" alt="Martini" style="border-radius:50%" width="140" height="140" >
+        <h2>21+</h2>
+        <p>The 21+ page includes five different drinks to choose from. Some of the drinks include mimosas, martinis, and long island iced teas.</p>
+        <p><a class="btn btn-secondary" href="#">View More &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Breakfast? Lunch? Brunch. <span class="text-muted">For those who just can't pick.</span></h2>
+        <p class="lead">Do you wake up late too? I guess you enjoy brunch just like me. Breakfast for lunch and lunch for breakfast is great. Add a mimosa on the side 
+          and you have yourself the perfect day. View the gallery up above to see different brunch meals to choose from.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/pizza.jpeg" alt="Bacon and Egg Florentine Pizza">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Sweet Desserts! <span class="text-muted">We all need some calories every now and then.</span></h2>
+        <p class="lead">You don't have to feel guilty for wanting some sweets. It won't hurt to have one, two, or five cookies. If you enjoy eating
+          delicious snacks then that's all that matters. Learn how to make some of my favorite sweets by checking out the dessert page.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/chocoFlan.jpeg" alt="Chocoflan (The Impossible Cake)">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Happy Hour<span class="text-muted"> (21+)</span></h2>
+        <p class="lead"> If you are under 21 please save this section until you turn of age. I can't control who reads this, so if you're still here then you might as well 
+          learn how to make some drinks. Use any of the recipes in the 21+ page to make your own alcoholic drinks.</p>
+      </div>
+      <div class="col-md-5">
+       <img src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /Images/tequilaSunrise.jpeg" alt="Tequila Sunrise">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="/Users/isabelchavez/Documents/CSCE 3420/Assignments/Website /bootstrap/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
